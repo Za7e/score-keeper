@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ping.css">
+    <title>Ping Pong Score</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="ping.jpeg" alt="ping pong paddle">
+        <h1>Ping Pong Score Keeper</h1>
+        <h2>
+            <span class="span__P1">0</span>
+            to
+            <span class="span__P2">0</span>
+        </h2>
+        <p>Use the buttons below to keep score</p>
+        <section class="selectorRow">
+            <span>Playing to </span>
+            <select class="scoreSelector">
+                <option>5</option>
+                <option>7</option>
+                <option>10</option>
+            </select>
+        </section>
+        <section class="btnRow">
+            <button class="btn btn__p1 btn--green">+1 Player One</button>
+            <button class="btn btn__p2 btn--blue">+1 Player Two</button>
+            <button class="btn btn__reset btn--red">Reset</button>
+        </section>
+    </div>
+
+    <script src="ping.js"></script>
+</body>
+
+</html>

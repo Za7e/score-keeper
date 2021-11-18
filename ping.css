@@ -1,0 +1,73 @@
+.container{
+    width: 350px;
+    border: 1px solid grey;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: .3rem;
+}
+img{
+    max-width:100%;
+    object-fit:contain;
+}
+
+h1{
+    font-size:.8rem;
+    border-bottom: 1px solid grey;
+    padding-bottom:.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    margin: 0;
+    font-size:2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: inline-block;
+}
+p{
+    margin:0 0 1rem 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem;
+}
+span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.selectorRow{
+    display: flex;
+    align-items: center;
+    margin-bottom:1rem;
+}
+.scoreSelector{
+    margin-left:1em;
+    height: 20px;
+    border-radius: .3rem;
+}
+.btnRow{
+    display:flex;
+}
+.btn{
+    flex:1;
+    padding:.6rem;
+    color: white;
+    border:none;
+    border-radius: .3rem;
+}
+.btn--green{
+    background-color: rgb(66, 190, 66);
+}
+.btn--blue{
+    background-color: rgb(43, 159, 231);
+}
+.btn--red{
+    background-color: rgb(231, 61, 61);
+}
+.btn--green:hover{
+    background-color: rgb(53, 160, 53);
+}
+.btn--blue:hover{
+    background-color: rgb(37, 139, 202);
+}
+.btn--red:hover{
+    background-color: rgb(197, 50, 50);
+}
+ 
